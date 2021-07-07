@@ -1,0 +1,7 @@
+com/blackSilicon/amds/entity/service/CorsUtils.class
+com/blackSilicon/amds/entity/service/AbstractFacade.class
+com/blackSilicon/amds/entity/Webfile.class
+com/blackSilicon/amds/entity/AbstractFacade.class
+com/blackSilicon/amds/entity/WebfileFacade.class
+com/blackSilicon/amds/entity/JAXRSConfiguration.class
+com/blackSilicon/amds/entity/service/WebfileFacadeREST.class

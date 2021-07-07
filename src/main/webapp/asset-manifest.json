@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/amds-1.0/static/css/main.c74ae307.chunk.css",
+    "main.js": "/amds-1.0/static/js/main.cb2321b9.chunk.js",
+    "main.js.map": "/amds-1.0/static/js/main.cb2321b9.chunk.js.map",
+    "runtime-main.js": "/amds-1.0/static/js/runtime-main.624eb564.js",
+    "runtime-main.js.map": "/amds-1.0/static/js/runtime-main.624eb564.js.map",
+    "static/js/2.5c0e1b35.chunk.js": "/amds-1.0/static/js/2.5c0e1b35.chunk.js",
+    "static/js/2.5c0e1b35.chunk.js.map": "/amds-1.0/static/js/2.5c0e1b35.chunk.js.map",
+    "static/js/3.70c87715.chunk.js": "/amds-1.0/static/js/3.70c87715.chunk.js",
+    "static/js/3.70c87715.chunk.js.map": "/amds-1.0/static/js/3.70c87715.chunk.js.map",
+    "90b61e8b86d2e1bd8290a9c9ae57cd45.js": "/amds-1.0/90b61e8b86d2e1bd8290a9c9ae57cd45.js",
+    "90b61e8b86d2e1bd8290a9c9ae57cd45.js.LICENSE.txt": "/amds-1.0/90b61e8b86d2e1bd8290a9c9ae57cd45.js.LICENSE.txt",
+    "index.html": "/amds-1.0/index.html",
+    "static/css/main.c74ae307.chunk.css.map": "/amds-1.0/static/css/main.c74ae307.chunk.css.map",
+    "static/js/2.5c0e1b35.chunk.js.LICENSE.txt": "/amds-1.0/static/js/2.5c0e1b35.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.624eb564.js",
+    "static/js/2.5c0e1b35.chunk.js",
+    "static/css/main.c74ae307.chunk.css",
+    "static/js/main.cb2321b9.chunk.js"
+  ]
+}
