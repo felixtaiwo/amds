@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.blackSilicon.amds.entity.service;
+package com.blackSilicon.amds.service;
 
 import java.util.List;
 import javax.persistence.EntityManager;

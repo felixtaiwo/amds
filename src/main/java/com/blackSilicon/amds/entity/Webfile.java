@@ -8,9 +8,11 @@ package com.blackSilicon.amds.entity;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -106,6 +108,8 @@ public class Webfile implements Serializable {
     @Basic(optional = false)
     @Column(name = "id")
     private Integer id;
+    @OneToMany(mappedBy="webFile", fetch=FetchType.EAGER)
+    private Set<Emailrequest> emailrequest;
 
     public Webfile() {
     }
@@ -175,6 +179,15 @@ public class Webfile implements Serializable {
     public void setSmsStatus(short smsStatus) {
         this.smsStatus = smsStatus;
     }
+
+    public Set<Emailrequest> getEmailrequest() {
+        return emailrequest;
+    }
+
+    public void setEmailrequest(Set<Emailrequest> emailrequest) {
+        this.emailrequest = emailrequest;
+    }
+    
 
 
     @Override

@@ -3,7 +3,7 @@
 // (powered by FernFlower decompiler)
 //
 
-package com.blackSilicon.amds.entity.utils;
+package com.blackSilicon.amds.utils;
 
 import javax.ejb.Stateless;
 import org.mindrot.BCrypt;

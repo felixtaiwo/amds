@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.blackSilicon.amds.entity.service;
+package com.blackSilicon.amds.service;
 
 import com.blackSilicon.amds.entity.Emailrequest;
 import com.blackSilicon.amds.entity.LoginAudit;
@@ -11,6 +11,7 @@ import com.blackSilicon.amds.session.EmailrequestFacade;
 import com.blackSilicon.amds.entity.Webfile;
 import com.blackSilicon.amds.session.LoginAuditFacade;
 import com.blackSilicon.amds.session.WebfileFacade;
+import com.blackSilicon.amds.utils.SecuredAdmin;
 import java.util.Date;
 import java.util.List;
 import javax.ejb.EJB;
@@ -111,12 +112,12 @@ public class WebfileFacadeREST extends AbstractFacade<Webfile> {
         }
     }
     
-    @GET
-    @Override
-    @Produces(MediaType.APPLICATION_JSON)
-    public List<Webfile> findAll() {
-        return super.findAll();
-    }
+//    @GET
+//    @Override
+//    @Produces(MediaType.APPLICATION_JSON)
+//    public List<Webfile> findAll() {
+//        return super.findAll();
+//    }
 
 //    @GET
 //    @Path("{from}/{to}")
@@ -130,6 +131,13 @@ public class WebfileFacadeREST extends AbstractFacade<Webfile> {
     @Produces(MediaType.TEXT_PLAIN)
     public String countREST() {
         return String.valueOf(super.count());
+    }
+    @GET
+    @SecuredAdmin
+    @Path("search/ref/mobile/{ref}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<Webfile> findByRefOrMobile(@PathParam("ref") String ref) {
+        return wf.findByRefOrMobile(ref);
     }
 
     @Override

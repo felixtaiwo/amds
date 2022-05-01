@@ -3,7 +3,7 @@
 // (powered by FernFlower decompiler)
 //
 
-package com.blackSilicon.amds.entity.utils;
+package com.blackSilicon.amds.utils;
 
 import java.io.IOException;
 import java.util.HashMap;

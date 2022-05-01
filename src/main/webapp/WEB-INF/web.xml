@@ -5,7 +5,11 @@ xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
 id="payoutlet" version="3.0">
-
+<session-config>
+		<session-timeout>
+			200
+		</session-timeout>
+	</session-config>
     <error-page>
         <error-code>404</error-code>
         <location>/index.html</location>
